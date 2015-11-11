@@ -117,5 +117,5 @@ pyvenv.cfg
 pip-selfcheck.json
 
 #Custom ignonres
-*.sqlite
+*.sqlite3
 migrations/
