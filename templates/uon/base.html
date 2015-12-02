@@ -62,17 +62,18 @@
                 <div class="collapse navbar-collapse navbar-mind-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="{% url 'home' %}">HOME</a></li>
-                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="{% url 'services' %}">SERVICES</a></li>
                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="fa fa-caret-down"></b>RESOURCES</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">RESOURCES <b class="fa fa-caret-down"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Demos</a></li>
-                                <li><a href="#">Manuls</a></li>
+                                <li><a href="{% url 'demos' %}">Demos</a></li>
+                                <li><a href="{% url 'manuals' %}">Manuals</a></li>
+                                <li><a href="{% url 'publications' %}">Publications</a> </li>
                                 <li><a href="#">Other Documents</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">ABOUT US</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="{% url 'about' %}">ABOUT US</a></li>
+                        <li><a href="{% url 'contact' %}">CONTACT</a></li>
                     </ul> <!-- nav nabvar-nav -->
 
                     <ul class="nav navbar-nav navbar-right">
@@ -126,18 +127,13 @@
                     <div class="col-md-4">
                         <h3 class="footer-widget-title">Sitemap</h3>
                         <ul class="list-unstyled three_cols">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Portafolio</a></li>
-                            <li><a href="#">Works</a></li>
-                            <li><a href="#">Gallery</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Our Team</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">Cantact</a></li>
+                            <li><a href="{% url 'home' %}">Home</a></li>
+                            <li><a href="{% url 'services' %}">Services</a></li>
+                            <li><a href="{% url 'demos' %}">Demos</a></li>
+                            <li><a href="{% url 'manuals' %}">Manuals</a></li>
+                            <li><a href="{% url 'publications' %}">Publications</a></li>
+                            <li><a href="{% url 'about' %}">About Us</a></li>
+                            <li><a href="{% url 'contact' %}">Contact</a></li>
                         </ul>
                         <h3 class="footer-widget-title">Subscribe</h3>
                         <p>Lorem ipsum Amet fugiat elit nisi anim mollit in labore ut esse Duis ullamco ad dolor veniam velit lorem ipsum dolor sit amet, consectetur adipisicing..</p>
@@ -151,6 +147,20 @@
                     <div class="col-md-4">
                         <div class="footer-widget">
                             <h3 class="footer-widget-title">Contacts</h3>
+                    <address>
+                        <strong>UonAfya</strong><br>
+                        Chiromo , Riverside Drive<br>
+                        Nairobi, Kenya<br>
+                        <abbr title="Phone">P:</abbr> 12345
+                    </address>
+
+                    <!-- Business Hours -->
+                    <h3>Business Hours</h3>
+                    <ul class="list-unstyled">
+                        <li><strong>Monday-Friday:</strong> 9am to 7pm</li>
+                        <li><strong>Saturday:</strong> 9am to 2pm</li>
+                        <li><strong>Sunday:</strong> Closed</li>
+                    </ul>
                         </div>
                     </div>
                     <div class="col-md-4">

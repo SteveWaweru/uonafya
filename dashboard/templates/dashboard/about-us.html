@@ -1,0 +1,164 @@
+{% extends 'uon/base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <header class="wrap-title">
+        <div class="container">
+            <h1 class="page-title">About us</h1>
+
+            <ol class="breadcrumb hidden-xs">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li class="active">About Us</li>
+            </ol>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+<br/>
+            <div class="col-md-8">
+                <section class="animated fadeInDown animation-delay-8">
+                    <h2 class="section-title">About us</h2>
+                    <img src="{% static 'img/team.jpg' %}" class="img-responsive imageborder" alt="Image">
+
+                    <p class="p-lg">Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit</strong>. Corpora,
+                        occulta eruditionem, vidisse videamus occultarum inciderit nocet dubitat studia fama latinam,
+                        redeamus miserius dissentio reici defatigatio honesta hinc doloremque. Pacto otiosum fecerit,
+                        propemodum ceramico exercitumque vidisse vocent orationis lucilius utrisque repugnantiumve
+                        mnesarchum. Democrito quaerimus monstret tradere magnosque bono eaque variis, beatam erat
+                        restincto ipse pariatur depravare istae status motum aequi, ludus loco suum posuit testibus cur
+                        oratoribus transferre corporis, fabellas labor, erga cyrenaicos male imperitos dicunt. Mentitum
+                        siculis brute oritur stoicis.</p>
+                    <h4>Other information</h4>
+
+                    <p class="p-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ne albuci eorum <strong>disciplina</strong>
+                        invenerit gravissimis usque, voluptati aristippi maestitiam intuemur, ibidem platonem eveniet
+                        allevatio expectant reddidisti magnus quis. Tarentinis effluere quoniam evolutio oblivione eo
+                        expressas magnitudinem maior summum, placeat quosque concursio videatur verbi efficiantur
+                        intellegamus menandri, cupiditatibus dixissem, parta ultima, perfruique quidem quaerat quaerimus
+                        aperiam argumentandum, hinc consilio seditiones scriptorem dixissem superstitione occultum
+                        latinis mel falsarum, tuemur placet <strong>senserit existunt deteriora</strong>, perpauca
+                        cotidieque numquidnam, persequeretur attulit, paria permanentes, corporum quibusdam, exercitus.
+                    </p>
+                </section>
+                <section class="animated fadeIn animation-delay-10">
+                    <h3 class="section-title">Services</h3>
+
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                        Server Hosting
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven lorem ipsum
+                                    dolor sit amet, consectetur adipisicing elit. Nisi veniam quidem perferendis
+                                    quisquam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                                       class="collapsed">
+                                        Training
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven lorem ipsum
+                                    dolor sit amet, consectetur adipisicing elit. Nisi veniam quidem perferendis
+                                    quisquam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                                       class="collapsed">
+                                        Web Application Development
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven lorem ipsum
+                                    dolor sit amet, consectetur adipisicing elit. Nisi veniam quidem perferendis
+                                    quisquam.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">PARTNERS</div>
+                    <div class="panel-body">
+                        <section>
+                            <h4 class="section-title">MOH</h4>
+                            <h5>Training</h5>
+                            <h5>System Support</h5>
+                            <h5>Module Development</h5>
+                        </section>
+
+                        {#                            <section>#}
+                        {#                                <div class="media">#}
+                        {#                                    <a class="pull-left" href="#"><img class="media-object" src="{% static 'img/m2.jpg' %}" width="75" height="75" alt="image"></a>#}
+                        {#                                    <div class="media-body">#}
+                        {#                                        <hp class="media-heading"><a href="#">Lorem ipsum Duis quis occaecat minim lorem ipsum tempor officia labor</a></hp>#}
+                        {#                                        <small>August 18, 2013</small>#}
+                        {#                                </div>#}
+                        {#                            </div>#}
+                        {#                            <div class="media">#}
+                        {#                                <a class="pull-left" href="#"><img class="media-object" src="{% static 'img/m11.jpg' %}" width="75" height="75" alt="image"></a>#}
+                        {#                                <div class="media-body">#}
+                        {#                                    <p class="media-heading"><a href="#">Lorem ipsum dolor excepteur sunt in lorem ipsum cillum tempor</a></p>#}
+                        {#                                    <small>September 14, 2013</small>#}
+                        {#                                </div>#}
+                        {#                            </div>#}
+                        {#                            </section>#}
+                        <section>
+                            <h4 class="section-title">AFYAINFO</h4>
+                            <h5>Training</h5>
+                            <h5>System Support</h5>
+                            <h5>Module Development</h5>
+                        </section>
+
+                        <section>
+                            <h4 class="section-title">USAID</h4>
+                            <h5>Training</h5>
+                            <h5>System Support</h5>
+                            <h5>Module Development</h5>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- container -->
+{% endblock %}

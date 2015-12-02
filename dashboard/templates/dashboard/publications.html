@@ -1,0 +1,67 @@
+{% extends 'uon/base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <header class="wrap-title">
+        <div class="container">
+            <h1 class="page-title">Publications</h1>
+
+            <ol class="breadcrumb hidden-xs">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="#">Resources</a></li>
+                <li class="active">Publications</li>
+            </ol>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <section>
+                <div class="col-xs-12">
+                    <p>
+                        There are several publications from scholars.
+                    </p>
+                </div>
+            </section>
+
+            <div class="col-md-12">
+                <h3>SCHOLAR PUBLICATIONS</h3>
+
+                <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>File Name</th>
+                                                <th>File Type</th>
+                                                <th>Updated</th>
+                                                <th>Download</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>DHIS2 Manual</td>
+                                                <td><span class="label label-info">PDF</span></td>
+                                                <td>29/11/2015</td>
+                                                <td><button class="btn btn-sm btn-success">Download <i class="fa fa-arrow-down"></i></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>JPRP</td>
+                                                <td><span class="label label-default">DOC</span></td>
+                                                <td>29/11/2015</td>
+                                                <td><button class="btn btn-sm btn-success">Download <i class="fa fa-arrow-down"></i></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Larry</td>
+                                                <td><span class="label label-info">PDF</span></td>
+                                                <td>29/11/2015</td>
+                                                <td><button class="btn btn-sm btn-success">Download <i class="fa fa-arrow-down"></i></button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+            </div>
+        </div>
+        <!-- row -->
+    </div> <!-- container -->
+{% endblock content %}
